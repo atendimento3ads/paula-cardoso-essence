@@ -800,6 +800,16 @@ summary:focus-visible,
   text-align: center;
 }
 
+.site-footer__content {
+  display: grid;
+  gap: 0.35rem;
+  line-height: 1.5;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
 .site-footer a {
   color: inherit;
   text-decoration: underline;

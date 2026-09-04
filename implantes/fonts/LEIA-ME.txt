@@ -1,0 +1,21 @@
+TIPOGRAFIA DA LP
+================
+
+Destaque (títulos): Instrument Serif — Itálico, peso 400
+  Carregada do Google Fonts. Não precisa de arquivo local.
+  Só existe no peso 400: NUNCA aplicar bold, o navegador sintetiza
+  e o desenho da fonte quebra.
+
+Corpo / interface: Sora
+  Carregada do Google Fonts. Pesos 300 a 800.
+
+Sobre a Apple Garamond
+----------------------
+A Apple Garamond é fonte licenciada da Apple e não pode ser carregada
+via Google Fonts. Foi testada como destaque e substituída pela
+Instrument Serif itálico a pedido do cliente.
+
+Se um dia a Apple Garamond (ou outra) precisar entrar, basta alterar
+uma linha no CSS do index.html, na variável:
+
+  --ff-display: 'Instrument Serif', Georgia, 'Times New Roman', serif;

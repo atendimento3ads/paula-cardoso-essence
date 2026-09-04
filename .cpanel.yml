@@ -2,5 +2,10 @@
 deployment:
   tasks:
     - /bin/mkdir -p /home2/hg3ads37/paulacardosoessence.com.br/assets
+    - /bin/mkdir -p /home2/hg3ads37/paulacardosoessence.com.br/implantes/images
+    - /bin/mkdir -p /home2/hg3ads37/paulacardosoessence.com.br/implante-protocolo
     - /bin/cp -f index.html styles.css styles.min.css sitemap.xml robots.txt llm.txt llms.txt .htaccess /home2/hg3ads37/paulacardosoessence.com.br/
     - /bin/cp -Rf assets/. /home2/hg3ads37/paulacardosoessence.com.br/assets/
+    - /bin/cp -f implantes/index.html /home2/hg3ads37/paulacardosoessence.com.br/implantes/
+    - /bin/cp -Rf implantes/images/. /home2/hg3ads37/paulacardosoessence.com.br/implantes/images/
+    - /bin/cp -f implante-protocolo/index.html /home2/hg3ads37/paulacardosoessence.com.br/implante-protocolo/

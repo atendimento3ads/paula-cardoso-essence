@@ -2,12 +2,12 @@ TIPOGRAFIA DA LP
 ================
 
 Destaque (títulos): Instrument Serif — Itálico, peso 400
-  Carregada do Google Fonts. Não precisa de arquivo local.
+  Arquivo local: /assets/instrument-serif-italic-400.woff2.
   Só existe no peso 400: NUNCA aplicar bold, o navegador sintetiza
   e o desenho da fonte quebra.
 
 Corpo / interface: Sora
-  Carregada do Google Fonts. Pesos 300 a 800.
+  Arquivos locais em /assets. A LP utiliza os pesos 400, 600 e 700.
 
 Sobre a Apple Garamond
 ----------------------

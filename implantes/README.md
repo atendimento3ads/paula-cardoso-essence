@@ -3,17 +3,17 @@
 Landing page estática de captação para implantes dentários e prótese protocolo.
 Cliente: Dra. Paula Cardoso (CRO-GO 7676) — Goiânia/GO.
 
-- LP de implantes: `index.html` (um ou mais dentes)
-- LP de prótese protocolo: `protocolo.html` (arcada completa)
+- LP de implantes: `implantes/index.html` (um ou mais dentes)
+- LP de prótese protocolo: `implante-protocolo/index.html` (arcada completa)
 - Imagens: `images/`
-- Fontes: Google Fonts (Sora + Instrument Serif) — ver `fonts/LEIA-ME.txt`
+- Fontes: arquivos locais (Sora + Instrument Serif), sem bloqueio por terceiros
 - Material bruto do cliente: `_material-cliente/` (**não subir para o servidor**)
 
 Desenvolvido por **3ADS**.
 
-- **Implantes (preview):** <https://atendimento3ads.github.io/lp-paula-cardoso-implantes/>
-- **Prótese protocolo (preview):** <https://atendimento3ads.github.io/lp-paula-cardoso-implantes/protocolo.html>
-- **Repositório:** <https://github.com/atendimento3ads/lp-paula-cardoso-implantes>
+- **Implantes:** <https://paulacardosoessence.com.br/implantes/>
+- **Prótese protocolo:** <https://paulacardosoessence.com.br/implante-protocolo/>
+- **Repositório de produção:** <https://github.com/atendimento3ads/paula-cardoso-essence>
 
 > ⚠️ O GitHub Pages é **público**. Qualquer pessoa com o link vê a página e as
 > fotos dos pacientes. Enquanto a autorização de uso de imagem não estiver
@@ -58,7 +58,7 @@ Cada LP usa sua própria mensagem automática para identificar o interesse em
 implantes ou prótese protocolo.
 
 ### 2. CNPJ
-O rodapé está com `[CLIENTE IRÁ ENVIAR]` — trocar quando chegar.
+O rodapé e os dados estruturados usam `59.241.454/0001-05`.
 
 ### 3. Autorização de uso de imagem — IMPORTANTE
 As fotos em `images/casos/` vieram da pasta enviada pela cliente. **A copy pede
@@ -116,20 +116,11 @@ pedido do cliente. Detalhes em `fonts/LEIA-ME.txt`.
 - Sem dependências externas além do Google Fonts.
 
 ### Publicação
-O deploy no Pages é automático: todo push na branch `main` republica a página.
-
-Para subir no cPanel do cliente, enviar o conteúdo da pasta **exceto**:
-
-```
-_material-cliente/
-README.md
-.gitignore
-.git/
-```
+O arquivo `.cpanel.yml` do repositório principal copia as duas LPs e os ativos compartilhados para o domínio de produção. Após cada push na branch `main`, atualizar o repositório no cPanel e executar o deploy do commit mais recente.
 
 ### Rodar localmente
 Qualquer servidor estático serve. Exemplo:
 
 ```bash
-cd "lp-paula-cardoso-implantes" && python3 -m http.server 8080
+cd "paula-cardoso-essence" && python3 -m http.server 8080
 ```

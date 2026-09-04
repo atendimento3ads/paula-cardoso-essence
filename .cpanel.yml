@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - /bin/mkdir -p /home2/hg3ads37/paulacardosoessence.com.br/assets
-    - /bin/cp -f index.html /home2/hg3ads37/paulacardosoessence.com.br/index.html
+    - /bin/cp -f index.html styles.css styles.min.css sitemap.xml robots.txt llm.txt llms.txt .htaccess /home2/hg3ads37/paulacardosoessence.com.br/
     - /bin/cp -Rf assets/. /home2/hg3ads37/paulacardosoessence.com.br/assets/

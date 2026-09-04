@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <!-- Google Tag Manager -->
@@ -10,1260 +10,168 @@
   <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Transformação estética do sorriso com planejamento digital e resultado natural.">
+  <meta name="description" content="Dentista em Goiânia especializada em odontologia estética, planejamento digital e transformação do sorriso com resultados naturais. Agende sua avaliação.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="Dra. Paula Cardoso">
+  <meta name="keywords" content="dentista em Goiânia, odontologia estética, estética do sorriso, transformação do sorriso, planejamento digital do sorriso, sorriso natural, Dra. Paula Cardoso">
+  <meta name="theme-color" content="#7d0f3c">
+  <meta name="geo.region" content="BR-GO">
+  <meta name="geo.placename" content="Goiânia">
+  <link rel="canonical" href="https://paulacardosoessence.com.br/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <title>Dra. Paula Cardoso | Transformação estética do sorriso</title>
-  <style>
-    @font-face {
-      font-family: "Bree Serif";
-      src: url("assets/bree-serif-400.ttf") format("truetype");
-      font-display: swap;
-      font-style: normal;
-      font-weight: 400;
-    }
-
-    @font-face {
-      font-family: "Sora";
-      src: url("assets/sora-400.ttf") format("truetype");
-      font-display: swap;
-      font-style: normal;
-      font-weight: 400;
-    }
-
-    @font-face {
-      font-family: "Sora";
-      src: url("assets/sora-600.ttf") format("truetype");
-      font-display: swap;
-      font-style: normal;
-      font-weight: 600;
-    }
-
-    @font-face {
-      font-family: "Sora";
-      src: url("assets/sora-700.ttf") format("truetype");
-      font-display: swap;
-      font-style: normal;
-      font-weight: 700;
-    }
-
-    :root {
-      --wine: #7d0f3c;
-      --wine-dark: #65082f;
-      --ink: #181818;
-      --paper: #efeae4;
-      --white: #ffffff;
-      --max: 1280px;
-      --shadow: 0 10px 32px rgba(24, 24, 24, 0.14);
-    }
-
-    *,
-    *::before,
-    *::after {
-      box-sizing: border-box;
-    }
-
-    html {
-      max-width: 100%;
-      overflow-x: hidden;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      max-width: 100%;
-      overflow-x: hidden;
-      background: var(--white);
-      color: var(--ink);
-      font-family: "Sora", Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    img {
-      display: block;
-      max-width: 100%;
-    }
-
-    button,
-    a {
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    .container {
-      width: min(var(--max), calc(100% - 48px));
-      margin-inline: auto;
-    }
-
-    .title {
-      margin: 0;
-      font-family: "Bree Serif", Georgia, serif;
-      font-size: clamp(2rem, 2.08vw, 2.5rem);
-      font-weight: 400;
-      line-height: 1.2;
-    }
-
-    .accent {
-      color: var(--wine);
-    }
-
-    .underlined {
-      color: var(--wine);
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 3px;
-    }
-
-    .button {
-      display: inline-flex;
-      width: min(426px, 100%);
-      min-height: 64px;
-      align-items: center;
-      justify-content: center;
-      border: 0;
-      border-radius: 999px;
-      background: var(--wine);
-      color: var(--white);
-      font: 600 1rem/1 "Sora", Arial, sans-serif;
-      text-align: center;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: background-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
-    }
-
-    .button:hover {
-      background: var(--wine-dark);
-      box-shadow: 0 10px 24px rgba(125, 15, 60, 0.22);
-      transform: translateY(-2px);
-    }
-
-    .button:focus-visible,
-    .carousel-control:focus-visible,
-    summary:focus-visible {
-      outline: 3px solid rgba(125, 15, 60, 0.36);
-      outline-offset: 4px;
-    }
-
-    .hero {
-      position: relative;
-      height: 843px;
-      overflow: hidden;
-      background: #f7f5f2 url("assets/hero-background.png") center top / cover no-repeat;
-    }
-
-    .hero::after {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, #ffffff 100%);
-      content: "";
-      pointer-events: none;
-    }
-
-    .hero__inner {
-      position: relative;
-      z-index: 2;
-      display: flex;
-      height: 100%;
-      align-items: center;
-    }
-
-    .hero__copy {
-      display: flex;
-      width: 493px;
-      max-width: 42%;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 22px;
-      transform: translateY(-8px);
-    }
-
-    .hero__logo {
-      width: 270px;
-      height: auto;
-      margin-bottom: -7px;
-    }
-
-    .hero h1 {
-      margin: 0;
-      font-family: "Bree Serif", Georgia, serif;
-      font-size: clamp(2.5rem, 2.5vw, 3rem);
-      font-weight: 400;
-      line-height: 1.15;
-    }
-
-    .hero p {
-      max-width: 480px;
-      margin: 0;
-      font-size: 1.125rem;
-      line-height: 1.67;
-    }
-
-    .hero__callout {
-      position: absolute;
-      z-index: 2;
-      width: 297px;
-    }
-
-    .hero__callout--one {
-      top: 411px;
-      left: calc(50% - 18px);
-    }
-
-    .hero__callout--two {
-      top: 531px;
-      left: calc(50% + 319px);
-    }
-
-    .hero__mobile-portrait {
-      display: none;
-    }
-
-    .challenge {
-      position: relative;
-      z-index: 3;
-      display: flex;
-      width: min(1836px, calc(100% - 84px));
-      min-height: 450px;
-      margin: -58px auto 0;
-      padding: 72px 24px;
-      align-items: center;
-      justify-content: center;
-      border-radius: 30px;
-      background: var(--paper);
-      text-align: center;
-    }
-
-    .challenge__content {
-      display: flex;
-      width: 680px;
-      max-width: 100%;
-      flex-direction: column;
-      align-items: center;
-      gap: 19px;
-    }
-
-    .challenge p,
-    .results-intro p,
-    .expert__subtitle {
-      margin: 0;
-      font-size: 1.125rem;
-      line-height: 1.67;
-    }
-
-    .results-intro {
-      display: flex;
-      width: min(660px, calc(100% - 40px));
-      margin: 0 auto;
-      padding: 104px 0 57px;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-      text-align: center;
-    }
-
-    .smile-strip,
-    .social-strip,
-    .testimonials-strip {
-      scrollbar-color: var(--wine) transparent;
-      scrollbar-width: thin;
-    }
-
-    .smile-carousel {
-      position: relative;
-    }
-
-    .smile-strip {
-      display: flex;
-      width: 100%;
-      padding-bottom: 14px;
-      gap: 31px;
-      justify-content: flex-start;
-      overflow-x: auto;
-      overscroll-behavior-inline: contain;
-      scroll-behavior: smooth;
-      scroll-snap-type: x mandatory;
-      scrollbar-width: none;
-    }
-
-    .smile-strip::-webkit-scrollbar {
-      display: none;
-    }
-
-    .smile-strip img {
-      width: 400px;
-      height: 400px;
-      flex: 0 0 400px;
-      object-fit: cover;
-      scroll-snap-align: start;
-    }
-
-    .smile-strip img.is-rotated {
-      transform: rotate(90deg);
-    }
-
-    .smile-carousel__control {
-      position: absolute;
-      z-index: 2;
-      top: 50%;
-      display: grid;
-      width: 34px;
-      height: 34px;
-      padding: 0;
-      place-items: center;
-      border: 0;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.86);
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.13);
-      color: var(--wine);
-      cursor: pointer;
-      font: 700 1.2rem/1 "Sora", sans-serif;
-      transform: translateY(-50%);
-    }
-
-    .smile-carousel__control--previous {
-      left: 16px;
-    }
-
-    .smile-carousel__control--next {
-      right: 16px;
-    }
-
-    .process {
-      padding: 119px 0 91px;
-    }
-
-    .process__title {
-      width: min(650px, 100%);
-      margin: 0 auto 49px;
-      text-align: center;
-    }
-
-    .process__grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-    }
-
-    .process-card {
-      min-height: 242px;
-      padding: 32px 26px 28px;
-      border: 1px solid var(--ink);
-      border-right: 0;
-    }
-
-    .process-card:last-child {
-      border-right: 1px solid var(--ink);
-    }
-
-    .process-card img {
-      width: 50px;
-      height: 50px;
-      margin-bottom: 29px;
-    }
-
-    .process-card h3 {
-      max-width: 246px;
-      margin: 0;
-      font-size: 1.25rem;
-      line-height: 1.5;
-    }
-
-    .proof-zone {
-      position: relative;
-      isolation: isolate;
-      padding: 0 0 90px;
-      background: linear-gradient(to bottom, #ffffff 0 430px, var(--paper) 430px 100%);
-    }
-
-    .proof-zone::before {
-      position: absolute;
-      z-index: -1;
-      top: 305px;
-      left: 50%;
-      width: min(1603px, 84vw);
-      height: 390px;
-      background: var(--paper);
-      clip-path: polygon(8% 0, 92% 0, 100% 100%, 0 100%);
-      content: "";
-      transform: translateX(-50%);
-    }
-
-    .expert {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 35px;
-      text-align: center;
-    }
-
-    .expert__heading {
-      width: min(680px, 100%);
-    }
-
-    .expert__video {
-      position: relative;
-      width: min(860px, 100%);
-      aspect-ratio: 860 / 484;
-      overflow: hidden;
-      border-radius: 3px;
-      background: #202427;
-      box-shadow: var(--shadow);
-    }
-
-    .expert__video > img:first-child {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .play {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 64px;
-      height: 45px;
-      transform: translate(-50%, -50%);
-    }
-
-    .testimonials {
-      margin-top: 99px;
-    }
-
-    .testimonials__head {
-      display: flex;
-      margin-bottom: 34px;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 24px;
-    }
-
-    .eyebrow {
-      margin: 0 0 20px;
-      font-size: 1rem;
-      letter-spacing: 0.5em;
-      line-height: 1.5;
-      text-transform: uppercase;
-    }
-
-    .testimonials__title {
-      color: var(--wine);
-    }
-
-    .carousel-controls {
-      display: flex;
-      gap: 12px;
-    }
-
-    .carousel-control {
-      display: grid;
-      width: 34px;
-      height: 34px;
-      padding: 0;
-      place-items: center;
-      border: 0;
-      border-radius: 50%;
-      background: var(--wine);
-      color: var(--white);
-      cursor: pointer;
-      font: 700 1.1rem/1 "Sora", sans-serif;
-    }
-
-    .testimonials-strip {
-      display: flex;
-      width: calc(100% + 96px);
-      margin-left: -48px;
-      padding-inline: 48px;
-      gap: 23px;
-      overflow-x: auto;
-      scroll-behavior: smooth;
-      scroll-snap-type: x mandatory;
-    }
-
-    .testimonials-strip img {
-      width: 320px;
-      height: 520px;
-      flex: 0 0 320px;
-      border-radius: 8px;
-      object-fit: cover;
-      scroll-snap-align: start;
-    }
-
-    .testimonials__cta {
-      margin-top: 35px;
-    }
-
-    .investment {
-      position: relative;
-      min-height: 538px;
-      overflow: hidden;
-      background: #222222;
-      color: var(--white);
-    }
-
-    .investment::before,
-    .investment::after {
-      position: absolute;
-      left: -35px;
-      color: #282828;
-      font-size: clamp(10rem, 16.8vw, 20.2rem);
-      font-weight: 700;
-      line-height: 0.82;
-      white-space: nowrap;
-    }
-
-    .investment::before {
-      top: -26px;
-      content: "INVISTA EM";
-    }
-
-    .investment::after {
-      bottom: -25px;
-      content: "SORRISO";
-    }
-
-    .investment__inner {
-      position: relative;
-      z-index: 1;
-      display: grid;
-      min-height: 538px;
-      grid-template-columns: 430px minmax(0, 730px);
-      align-items: center;
-      justify-content: space-between;
-      gap: 80px;
-    }
-
-    .investment__copy .eyebrow {
-      color: var(--white);
-    }
-
-    .investment__copy .title {
-      font-size: 2.5rem;
-    }
-
-    .investment__copy p:last-child {
-      margin: 27px 0 0;
-      font-size: 1.5rem;
-      line-height: 1.5;
-    }
-
-    .investment__video {
-      position: relative;
-      overflow: hidden;
-      border-radius: 12px;
-    }
-
-    .investment__video > img:first-child {
-      width: 100%;
-      aspect-ratio: 940 / 534;
-      object-fit: cover;
-    }
-
-    .about {
-      display: grid;
-      width: 100%;
-      min-height: 677px;
-      grid-template-columns: minmax(0, 45.3%) minmax(410px, 640px);
-      align-items: center;
-      gap: 22px;
-    }
-
-    .about__visual img {
-      width: 100%;
-    }
-
-    .about__copy {
-      width: 100%;
-      max-width: 640px;
-      padding-right: 24px;
-    }
-
-    .about__copy .eyebrow {
-      margin-bottom: 16px;
-    }
-
-    .about__copy .title {
-      font-size: 2.5rem;
-    }
-
-    .about__copy p {
-      margin: 37px 0 39px;
-      font-size: 1.1rem;
-      line-height: 1.5;
-    }
-
-    .faq {
-      padding: 120px 0 126px;
-    }
-
-    .faq__inner {
-      width: min(736px, calc(100% - 40px));
-      margin-inline: auto;
-      text-align: center;
-    }
-
-    .faq__title {
-      margin-bottom: 30px;
-    }
-
-    .faq-list {
-      display: grid;
-      gap: 19px;
-    }
-
-    .faq-item {
-      overflow: hidden;
-      border-radius: 999px;
-      background: var(--white);
-      box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
-      text-align: left;
-    }
-
-    .faq-item[open] {
-      border-radius: 28px;
-    }
-
-    .faq-item summary {
-      position: relative;
-      display: flex;
-      min-height: 60px;
-      padding: 16px 58px 16px 40px;
-      align-items: center;
-      cursor: pointer;
-      font-size: 1rem;
-      list-style: none;
-    }
-
-    .faq-item summary::-webkit-details-marker {
-      display: none;
-    }
-
-    .faq-item summary::after {
-      position: absolute;
-      top: 50%;
-      right: 30px;
-      width: 9px;
-      height: 6px;
-      background: url("assets/faq-chevron.svg") center / contain no-repeat;
-      content: "";
-      transform: translateY(-50%);
-      transition: transform 180ms ease;
-    }
-
-    .faq-item[open] summary::after {
-      transform: translateY(-50%) rotate(180deg);
-    }
-
-    .faq-item p {
-      margin: -3px 40px 21px;
-      color: #555555;
-      font-size: 0.94rem;
-      line-height: 1.55;
-    }
-
-    .faq__cta {
-      margin-top: 23px;
-    }
-
-    .social-results {
-      padding-top: 0;
-      text-align: center;
-    }
-
-    .social-results__head {
-      position: relative;
-      display: flex;
-      width: min(var(--max), calc(100% - 48px));
-      margin-inline: auto;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .social-results__title {
-      margin-bottom: 44px;
-      color: var(--wine);
-    }
-
-    .social-results__controls {
-      position: absolute;
-      right: 0;
-      bottom: 42px;
-    }
-
-    .social-strip {
-      display: flex;
-      width: 100%;
-      padding-bottom: 18px;
-      gap: 39px;
-      justify-content: flex-start;
-      overflow-x: auto;
-      overscroll-behavior-inline: contain;
-      scroll-behavior: smooth;
-      scroll-snap-type: x mandatory;
-    }
-
-    .social-strip img {
-      width: 491px;
-      height: 663px;
-      flex: 0 0 491px;
-      object-fit: cover;
-      scroll-snap-align: start;
-    }
-
-    .ribbons {
-      position: relative;
-      height: 158px;
-      margin-top: 43px;
-    }
-
-    .ribbon {
-      position: absolute;
-      top: 35px;
-      left: -2%;
-      display: flex;
-      width: 104%;
-      height: 88px;
-      align-items: center;
-      overflow: hidden;
-      background: var(--wine);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.22);
-      color: var(--paper);
-      transform: rotate(-1.78deg);
-    }
-
-    .ribbon--back {
-      filter: blur(3px);
-      opacity: 0.94;
-      transform: rotate(1.75deg);
-    }
-
-    .ribbon__track {
-      display: flex;
-      width: max-content;
-      will-change: transform;
-      animation: ribbon-scroll 28s linear infinite;
-    }
-
-    .ribbon--back .ribbon__track {
-      animation-duration: 36s;
-      animation-delay: -12s;
-    }
-
-    .ribbon__group {
-      display: block;
-      flex: none;
-      padding-right: 1.2em;
-      font-family: "Bree Serif", Georgia, serif;
-      font-size: 2.15rem;
-      letter-spacing: 0.18em;
-      line-height: 1;
-      white-space: nowrap;
-      text-transform: uppercase;
-    }
-
-    @keyframes ribbon-scroll {
-      from {
-        transform: translateX(0);
-      }
-
-      to {
-        transform: translateX(-50%);
-      }
-    }
-
-    .closing {
-      display: flex;
-      min-height: 450px;
-      margin: -53px auto 0;
-      padding: 100px 24px 52px;
-      align-items: center;
-      justify-content: center;
-      background: var(--paper);
-      text-align: center;
-    }
-
-    .closing__content {
-      display: flex;
-      width: 680px;
-      max-width: 100%;
-      flex-direction: column;
-      align-items: center;
-      gap: 31px;
-    }
-
-    .site-footer {
-      display: grid;
-      min-height: 68px;
-      padding: 18px 24px;
-      place-items: center;
-      background: var(--wine);
-      color: var(--paper);
-      font-family: "Bree Serif", Georgia, serif;
-      font-size: 1rem;
-      text-align: center;
-    }
-
-    .site-footer a {
-      color: inherit;
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
-
-    @media (max-width: 1500px) {
-      :root {
-        --max: 1120px;
-      }
-
-      .hero__callout--one {
-        left: 51%;
-      }
-
-      .hero__callout--two {
-        left: 69%;
-      }
-
-      .smile-strip img {
-        width: 320px;
-        height: 320px;
-        flex-basis: 320px;
-      }
-
-      .social-strip img {
-        width: 390px;
-        height: 526px;
-        flex-basis: 390px;
-      }
-    }
-
-    @media (max-width: 1100px) {
-      :root {
-        --max: 900px;
-      }
-
-      .hero {
-        background-position: 58% top;
-      }
-
-      .hero__copy {
-        max-width: 48%;
-      }
-
-      .hero__callout {
-        display: none;
-      }
-
-      .process__grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .process-card:nth-child(2) {
-        border-right: 1px solid var(--ink);
-      }
-
-      .process-card:nth-child(n + 3) {
-        border-top: 0;
-      }
-
-      .investment__inner {
-        grid-template-columns: minmax(300px, 0.75fr) minmax(0, 1.25fr);
-        gap: 40px;
-      }
-
-      .about {
-        grid-template-columns: minmax(0, 48%) minmax(0, 1fr);
-        gap: 30px;
-      }
-
-      .about__copy .title {
-        font-size: 2.1rem;
-      }
-    }
-
-    @media (max-width: 760px) {
-      .container {
-        width: min(100% - 32px, 620px);
-      }
-
-      .title {
-        font-size: 1.85rem;
-      }
-
-      .button {
-        min-height: 56px;
-        padding-inline: 22px;
-        font-size: 0.78rem;
-      }
-
-      .hero {
-        height: auto;
-        min-height: 780px;
-        background: #ffffff;
-      }
-
-      .hero::before {
-        display: none;
-      }
-
-      .hero::after {
-        display: none;
-      }
-
-      .hero__inner {
-        height: auto;
-        align-items: flex-start;
-        justify-content: center;
-        padding-top: 36px;
-      }
-
-      .hero__copy {
-        width: 100%;
-        max-width: 520px;
-        align-items: center;
-        gap: 16px;
-        text-align: center;
-        transform: none;
-      }
-
-      .hero__logo {
-        width: 190px;
-      }
-
-      .hero h1 {
-        max-width: 430px;
-        font-size: clamp(2rem, 9vw, 2.55rem);
-      }
-
-      .hero p {
-        max-width: 420px;
-        font-size: 0.95rem;
-        line-height: 1.55;
-      }
-
-      .hero__mobile-portrait {
-        display: block;
-        width: 100%;
-        height: 360px;
-        background:
-          linear-gradient(
-            to bottom,
-            #ffffff 0,
-            rgba(255, 255, 255, 0.96) 3%,
-            rgba(255, 255, 255, 0.58) 10%,
-            transparent 22%,
-            transparent 68%,
-            #ffffff 100%
-          ),
-          url("assets/hero-background.png") calc(50% - 237px) -45px / auto 620px no-repeat;
-      }
-
-      .challenge {
-        width: calc(100% - 24px);
-        min-height: 0;
-        margin-top: -26px;
-        padding: 58px 22px;
-        border-radius: 22px;
-      }
-
-      .challenge p,
-      .results-intro p,
-      .expert__subtitle {
-        font-size: 0.95rem;
-        line-height: 1.55;
-      }
-
-      .results-intro {
-        padding: 78px 0 42px;
-      }
-
-      .smile-strip,
-      .social-strip {
-        width: 100%;
-        min-width: 0;
-        padding: 0 16px 16px;
-        justify-content: flex-start;
-        gap: 14px;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-      }
-
-      .smile-carousel__control {
-        display: none;
-      }
-
-      .smile-strip img {
-        width: min(78vw, 310px);
-        height: min(78vw, 310px);
-        flex-basis: min(78vw, 310px);
-        border-radius: 6px;
-        scroll-snap-align: center;
-      }
-
-      .process {
-        padding: 72px 0 78px;
-      }
-
-      .process__title {
-        margin-bottom: 34px;
-      }
-
-      .process__grid {
-        grid-template-columns: 1fr;
-      }
-
-      .process-card {
-        min-height: 170px;
-        padding: 25px;
-        border-right: 1px solid var(--ink);
-        border-bottom: 0;
-      }
-
-      .process-card:nth-child(n + 3) {
-        border-top: 1px solid var(--ink);
-      }
-
-      .process-card:last-child {
-        border-bottom: 1px solid var(--ink);
-      }
-
-      .process-card img {
-        width: 42px;
-        height: 42px;
-        margin-bottom: 18px;
-      }
-
-      .process-card h3 {
-        font-size: 1.05rem;
-      }
-
-      .proof-zone {
-        padding-bottom: 70px;
-        background: linear-gradient(to bottom, #ffffff 0 315px, var(--paper) 315px 100%);
-      }
-
-      .proof-zone::before {
-        top: 226px;
-        height: 260px;
-      }
-
-      .expert {
-        gap: 24px;
-      }
-
-      .expert__video {
-        border-radius: 8px;
-      }
-
-      .play {
-        width: 52px;
-        height: auto;
-      }
-
-      .testimonials {
-        margin-top: 72px;
-      }
-
-      .testimonials__head {
-        align-items: center;
-      }
-
-      .eyebrow {
-        margin-bottom: 12px;
-        font-size: 0.72rem;
-        letter-spacing: 0.38em;
-      }
-
-      .carousel-controls {
-        display: none;
-      }
-
-      .testimonials-strip {
-        width: calc(100% + 32px);
-        margin-left: -16px;
-        padding: 0 16px 16px;
-        gap: 14px;
-      }
-
-      .testimonials-strip img {
-        width: min(76vw, 300px);
-        height: auto;
-        flex-basis: min(76vw, 300px);
-      }
-
-      .investment {
-        min-height: 0;
-        padding: 74px 0;
-      }
-
-      .investment::before,
-      .investment::after {
-        font-size: 7rem;
-        opacity: 0.65;
-      }
-
-      .investment__inner {
-        min-height: 0;
-        grid-template-columns: 1fr;
-        gap: 44px;
-      }
-
-      .investment__copy {
-        text-align: center;
-      }
-
-      .investment__copy .title {
-        font-size: 2rem;
-      }
-
-      .investment__copy p:last-child {
-        margin-top: 20px;
-        font-size: 1.05rem;
-      }
-
-      .about {
-        min-height: 0;
-        padding: 72px 0 85px;
-        grid-template-columns: 1fr;
-        gap: 38px;
-      }
-
-      .about__visual {
-        order: 1;
-      }
-
-      .about__copy {
-        order: 2;
-        padding: 0 16px;
-        text-align: center;
-      }
-
-      .about__copy .title {
-        font-size: 2rem;
-      }
-
-      .about__copy p {
-        margin: 24px 0 30px;
-        font-size: 0.95rem;
-      }
-
-      .faq {
-        padding: 72px 0 90px;
-      }
-
-      .faq__inner {
-        width: calc(100% - 32px);
-      }
-
-      .faq-item {
-        border-radius: 24px;
-      }
-
-      .faq-item summary {
-        min-height: 58px;
-        padding: 14px 50px 14px 20px;
-        font-size: 0.82rem;
-      }
-
-      .faq-item summary::after {
-        right: 22px;
-      }
-
-      .faq-item p {
-        margin: -2px 20px 20px;
-        font-size: 0.82rem;
-      }
-
-      .social-results__title {
-        padding-inline: 20px;
-        margin-bottom: 32px;
-      }
-
-      .social-strip img {
-        width: min(79vw, 360px);
-        height: auto;
-        flex-basis: min(79vw, 360px);
-        scroll-snap-align: center;
-      }
-
-      .ribbons {
-        height: 126px;
-        margin-top: 26px;
-      }
-
-      .ribbon {
-        height: 68px;
-      }
-
-      .ribbon__group {
-        font-size: 1.2rem;
-      }
-
-      .closing {
-        min-height: 380px;
-        margin-top: -42px;
-        padding: 86px 22px 45px;
-      }
-
-      .site-footer {
-        min-height: 62px;
-        font-size: 0.78rem;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html {
-        scroll-behavior: auto;
-      }
-
-      *,
-      *::before,
-      *::after {
-        scroll-behavior: auto !important;
-        transition: none !important;
-      }
-
-      .ribbon__track {
-        animation: none;
-      }
-    }
-  </style>
+  <link rel="preload" href="assets/hero-background.png" as="image" fetchpriority="high">
+  <link rel="preload" href="assets/bree-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="alternate" href="/llms.txt" type="text/plain" title="Informações para assistentes de IA">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Dra. Paula Cardoso Essence">
+  <meta property="og:title" content="Dentista em Goiânia | Estética do Sorriso | Dra. Paula Cardoso">
+  <meta property="og:description" content="Planejamento digital e odontologia estética em Goiânia para transformar o sorriso com segurança, harmonia e naturalidade.">
+  <meta property="og:url" content="https://paulacardosoessence.com.br/">
+  <meta property="og:image" content="https://paulacardosoessence.com.br/assets/hero-background.png">
+  <meta property="og:image:width" content="1920">
+  <meta property="og:image:height" content="955">
+  <meta property="og:image:alt" content="Dra. Paula Cardoso, dentista especializada em estética do sorriso em Goiânia">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dentista em Goiânia | Estética do Sorriso | Dra. Paula Cardoso">
+  <meta name="twitter:description" content="Planejamento digital e odontologia estética para um sorriso natural e personalizado.">
+  <meta name="twitter:image" content="https://paulacardosoessence.com.br/assets/hero-background.png">
+  <title>Dentista em Goiânia | Estética do Sorriso | Dra. Paula Cardoso</title>
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.min.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://paulacardosoessence.com.br/#website",
+        "url": "https://paulacardosoessence.com.br/",
+        "name": "Dra. Paula Cardoso Essence",
+        "alternateName": "Paula Cardoso Essence",
+        "inLanguage": "pt-BR"
+      },
+      {
+        "@type": "Dentist",
+        "@id": "https://paulacardosoessence.com.br/#dentist",
+        "name": "Dra. Paula Cardoso",
+        "url": "https://paulacardosoessence.com.br/",
+        "description": "Atendimento odontológico estético em Goiânia com avaliação individual, planejamento digital do sorriso e foco em resultados naturais.",
+        "image": "https://paulacardosoessence.com.br/assets/sobre-paula-foto.png",
+        "logo": "https://paulacardosoessence.com.br/assets/logo-paula-cardoso.png",
+        "areaServed": {
+          "@type": "City",
+          "name": "Goiânia"
+        },
+        "medicalSpecialty": "Dentistry",
+        "founder": {
+          "@type": "Person",
+          "name": "Paula Cardoso",
+          "jobTitle": "Dentista"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://paulacardosoessence.com.br/#webpage",
+        "url": "https://paulacardosoessence.com.br/",
+        "name": "Dentista em Goiânia | Estética do Sorriso | Dra. Paula Cardoso",
+        "description": "Odontologia estética, planejamento digital e transformação do sorriso com resultados naturais em Goiânia.",
+        "isPartOf": { "@id": "https://paulacardosoessence.com.br/#website" },
+        "about": { "@id": "https://paulacardosoessence.com.br/#dentist" },
+        "inLanguage": "pt-BR"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://paulacardosoessence.com.br/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "A avaliação é sem compromisso?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. A avaliação é o momento de entender suas necessidades, esclarecer possibilidades e orientar os próximos passos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O resultado fica natural?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O planejamento busca respeitar suas proporções faciais e as características do seu sorriso para alcançar um resultado harmônico."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quanto tempo dura o tratamento?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O prazo depende do diagnóstico e do plano definido durante a avaliação individual."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O planejamento é feito antes de iniciar qualquer procedimento?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. Avaliação, simulação e planejamento antecedem a execução do tratamento."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Atende plano odontológico?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Consulte a equipe para confirmar modalidades de atendimento, formas de pagamento e eventuais coberturas."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3VR94BM"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <noscript><iframe class="gtm-noscript" src="https://www.googletagmanager.com/ns.html?id=GTM-P3VR94BM"
+  height="0" width="0" title="Google Tag Manager"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <main>
     <section class="hero" id="inicio" aria-labelledby="hero-title">
       <div class="container hero__inner">
         <div class="hero__copy">
-          <img class="hero__logo" src="assets/logo-paula-cardoso.png" alt="Dra. Paula Cardoso">
+          <img class="hero__logo" src="assets/logo-paula-cardoso.png" width="270" height="83" alt="Dra. Paula Cardoso" decoding="async" fetchpriority="high">
           <h1 id="hero-title">Transformação estética do sorriso com <span class="accent">planejamento digital</span> e <span class="accent">resultado natural</span></h1>
           <p>Avaliação, simulação do sorriso e plano personalizado. Atendimento em Goiânia, GO.</p>
           <a class="button" href="https://spar-hazel.vercel.app/l/google-paula-cardoso-ess-fzx" target="_blank" rel="noopener">Quero transformar meu sorriso</a>
         </div>
       </div>
       <div class="hero__mobile-portrait" aria-hidden="true"></div>
-      <img class="hero__callout hero__callout--one" src="assets/callout-dentes.png" alt="Naturalidade em lentes em porcelana">
-      <img class="hero__callout hero__callout--two" src="assets/callout-sorrisos.png" alt="Diferentes sorrisos transformados">
+      <img class="hero__callout hero__callout--one" src="assets/callout-dentes.png" width="432" height="117" alt="Naturalidade em lentes em porcelana" decoding="async">
+      <img class="hero__callout hero__callout--two" src="assets/callout-sorrisos.png" width="432" height="117" alt="Diferentes sorrisos transformados" decoding="async">
     </section>
 
     <section class="challenge" aria-labelledby="challenge-title">
-      <div class="challenge__content">
+      <div class="challenge__content" data-reveal>
         <h2 class="title" id="challenge-title">Pensando em melhorar seu sorriso,<br>mas com <span class="underlined">receio do resultado?</span></h2>
         <p>É comum ter medo de ficar artificial, de não saber qual tratamento escolher ou de investir sem segurança no resultado final.</p>
-        <a class="button" href="https://spar-hazel.vercel.app/l/google-paula-cardoso-ess-fzx" target="_blank" rel="noopener">Quero transformar meu sorriso</a>
+        <a class="button" href="https://spar-hazel.vercel.app/l/google-paula-cardoso-ess-fzx" target="_blank" rel="noopener" data-reveal>Quero transformar meu sorriso</a>
       </div>
     </section>
 
     <section aria-labelledby="resultados-title">
-      <div class="results-intro">
+      <div class="results-intro" data-reveal>
         <h2 class="title" id="resultados-title">Veja os nossos resultados <span class="underlined">antes de decidir qualquer tratamento</span></h2>
         <p>Veja sorrisos transformados com naturalidade e segurança, e decida com confiança no que é possível para você.</p>
       </div>
-      <div class="smile-carousel">
+      <div class="smile-carousel" data-reveal="scale">
         <button class="smile-carousel__control smile-carousel__control--previous" type="button" data-scroll="smile-results-track" data-direction="-1" aria-label="Resultados de sorrisos anteriores">‹</button>
-        <div class="smile-strip" id="smile-results-track" tabindex="0" aria-label="Carrossel de resultados de tratamentos odontológicos">
-          <img src="assets/sorriso-carrossel-1.webp" alt="Resultado frontal de transformação do sorriso">
-          <img class="is-rotated" src="assets/sorriso-carrossel-2.webp" alt="Resultado lateral de transformação do sorriso">
-          <img src="assets/sorriso-carrossel-3.webp" alt="Outro resultado frontal de transformação do sorriso">
-          <img class="is-rotated" src="assets/sorriso-carrossel-4.webp" alt="Outro resultado lateral de transformação do sorriso">
-          <img src="assets/sorriso-carrossel-3.webp" alt="Repetição do resultado frontal para continuidade visual" aria-hidden="true">
+        <div class="smile-strip" id="smile-results-track" role="group" tabindex="0" aria-label="Carrossel de resultados de tratamentos odontológicos">
+          <img src="assets/sorriso-carrossel-1.webp" width="400" height="400" alt="Resultado frontal de transformação estética do sorriso" loading="lazy" decoding="async">
+          <img class="is-rotated" src="assets/sorriso-carrossel-2.webp" width="400" height="400" alt="Resultado lateral de transformação estética do sorriso" loading="lazy" decoding="async">
+          <img src="assets/sorriso-carrossel-3.webp" width="400" height="400" alt="Sorriso natural após tratamento odontológico estético" loading="lazy" decoding="async">
+          <img class="is-rotated" src="assets/sorriso-carrossel-4.webp" width="400" height="400" alt="Vista lateral de resultado odontológico natural" loading="lazy" decoding="async">
+          <img src="assets/sorriso-carrossel-3.webp" width="400" height="400" alt="" loading="lazy" decoding="async" aria-hidden="true">
         </div>
         <button class="smile-carousel__control smile-carousel__control--next" type="button" data-scroll="smile-results-track" data-direction="1" aria-label="Próximos resultados de sorrisos">›</button>
       </div>
@@ -1271,22 +179,22 @@
 
     <section class="process" aria-labelledby="process-title">
       <div class="container">
-        <h2 class="title process__title" id="process-title">Um processo pensado para garantir <span class="underlined">segurança e naturalidade</span></h2>
+        <h2 class="title process__title" id="process-title" data-reveal>Um processo pensado para garantir <span class="underlined">segurança e naturalidade</span></h2>
         <div class="process__grid">
-          <article class="process-card">
-            <img src="assets/processo-1.svg" alt="Etapa 1">
+          <article class="process-card" data-reveal>
+            <img src="assets/processo-1.svg" width="50" height="50" alt="Etapa 1" loading="lazy" decoding="async">
             <h3>Avaliação estética e funcional do sorriso</h3>
           </article>
-          <article class="process-card">
-            <img src="assets/processo-2.svg" alt="Etapa 2">
+          <article class="process-card" data-reveal>
+            <img src="assets/processo-2.svg" width="50" height="50" alt="Etapa 2" loading="lazy" decoding="async">
             <h3>Simulação digital para visualizar o resultado</h3>
           </article>
-          <article class="process-card">
-            <img src="assets/processo-3.svg" alt="Etapa 3">
+          <article class="process-card" data-reveal>
+            <img src="assets/processo-3.svg" width="50" height="50" alt="Etapa 3" loading="lazy" decoding="async">
             <h3>Planejamento personalizado do tratamento</h3>
           </article>
-          <article class="process-card">
-            <img src="assets/processo-4.svg" alt="Etapa 4">
+          <article class="process-card" data-reveal>
+            <img src="assets/processo-4.svg" width="50" height="50" alt="Etapa 4" loading="lazy" decoding="async">
             <h3>Execução com acompanhamento profissional</h3>
           </article>
         </div>
@@ -1295,86 +203,92 @@
 
     <section class="proof-zone" aria-labelledby="expert-title">
       <div class="container expert">
-        <div class="expert__heading">
+        <div class="expert__heading" data-reveal>
           <h2 class="title" id="expert-title">Dra. Paula Cardoso.<br>Expert em transformações de <span class="accent">sorrisos</span></h2>
-          <p class="expert__subtitle">Aqui vai um subtítulo reforçando a ideia.</p>
+          <p class="expert__subtitle">Odontologia estética em Goiânia com avaliação individual, planejamento digital e foco em resultados naturais.</p>
         </div>
-        <a class="expert__video" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo da Dra. Paula Cardoso">
-          <img src="assets/video-dentista.png" alt="Dentista apresentando o tratamento">
-          <img class="play" src="assets/youtube-play.png" alt="">
+        <a class="expert__video" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Assistir ao vídeo da Dra. Paula Cardoso" data-reveal="scale">
+          <img src="assets/video-dentista.png" width="480" height="360" alt="Dra. Paula Cardoso apresentando o planejamento do sorriso" loading="lazy" decoding="async">
+          <img class="play" src="assets/youtube-play.png" width="64" height="45" alt="" loading="lazy" decoding="async">
         </a>
         <a class="button" href="https://spar-hazel.vercel.app/l/google-paula-cardoso-ess-fzx" target="_blank" rel="noopener">Quero transformar meu sorriso</a>
       </div>
 
       <div class="container testimonials">
-        <div class="testimonials__head">
+        <div class="testimonials__head" data-reveal>
           <div>
             <p class="eyebrow">Depoimentos</p>
             <h2 class="title testimonials__title">Veja o que nossos pacientes estão dizendo...</h2>
           </div>
-          <div class="carousel-controls" aria-label="Controles dos depoimentos">
+          <div class="carousel-controls" role="group" aria-label="Controles dos depoimentos">
             <button class="carousel-control" type="button" data-scroll="testimonials-track" data-direction="-1" aria-label="Depoimentos anteriores">‹</button>
             <button class="carousel-control" type="button" data-scroll="testimonials-track" data-direction="1" aria-label="Próximos depoimentos">›</button>
           </div>
         </div>
-        <div class="testimonials-strip" id="testimonials-track">
-          <img src="assets/depoimento-1.webp" alt="Depoimento de paciente 1">
-          <img src="assets/depoimento-2.webp" alt="Depoimento de paciente 2">
-          <img src="assets/depoimento-3.webp" alt="Depoimento de paciente 3">
-          <img src="assets/depoimento-4.webp" alt="Depoimento de paciente 4">
-          <img src="assets/depoimento-5.webp" alt="Depoimento de paciente 5">
-          <img src="assets/depoimento-6.webp" alt="Depoimento de paciente 6">
+        <div class="testimonials-strip" id="testimonials-track" role="group" tabindex="0" aria-label="Carrossel de depoimentos de pacientes" data-reveal="scale">
+          <img src="assets/depoimento-1.webp" width="320" height="521" alt="Depoimento de paciente sobre o atendimento odontológico" loading="lazy" decoding="async">
+          <img src="assets/depoimento-2.webp" width="320" height="521" alt="Relato de paciente sobre a transformação do sorriso" loading="lazy" decoding="async">
+          <img src="assets/depoimento-3.webp" width="320" height="521" alt="Avaliação de paciente da Dra. Paula Cardoso" loading="lazy" decoding="async">
+          <img src="assets/depoimento-4.webp" width="320" height="520" alt="Depoimento sobre resultado odontológico natural" loading="lazy" decoding="async">
+          <img src="assets/depoimento-5.webp" width="320" height="521" alt="Experiência de paciente com o planejamento do sorriso" loading="lazy" decoding="async">
+          <img src="assets/depoimento-6.webp" width="320" height="521" alt="Relato de paciente sobre estética do sorriso" loading="lazy" decoding="async">
         </div>
-        <a class="button testimonials__cta" href="https://spar-hazel.vercel.app/l/google-paula-cardoso-ess-fzx" target="_blank" rel="noopener">Quero transformar meu sorriso</a>
+        <a class="button testimonials__cta" href="https://spar-hazel.vercel.app/l/google-paula-cardoso-ess-fzx" target="_blank" rel="noopener" data-reveal>Quero transformar meu sorriso</a>
       </div>
     </section>
 
     <section class="investment" aria-labelledby="investment-title">
       <div class="container investment__inner">
-        <div class="investment__copy">
+        <div class="investment__copy" data-reveal="left">
           <p class="eyebrow">Invista em seu sorriso</p>
           <h2 class="title" id="investment-title">Melhore sua autoestima e bem-estar com um <span class="accent">sorriso transformador</span>.</h2>
           <p>Invista em você mesmo e conquiste mais felicidade e saúde.</p>
         </div>
-        <a class="investment__video" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Assistir depoimento de paciente">
-          <img src="assets/video-paciente.png" alt="Paciente mostrando o resultado do sorriso">
+        <a class="investment__video" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Assistir depoimento de paciente" data-reveal="right">
+          <picture>
+            <source srcset="assets/video-paciente.avif" type="image/avif">
+            <img src="assets/video-paciente.png" width="940" height="534" alt="Paciente mostrando o resultado natural do sorriso" loading="lazy" decoding="async">
+          </picture>
         </a>
       </div>
     </section>
 
     <section class="about" aria-labelledby="about-title">
-      <div class="about__visual">
-        <img src="assets/sobre-paula-foto.png" alt="Dra. Paula Cardoso em seu consultório">
+      <div class="about__visual" data-reveal="left">
+        <picture>
+          <source srcset="assets/sobre-paula-foto.avif" type="image/avif">
+          <img src="assets/sobre-paula-foto.png" width="860" height="669" alt="Dra. Paula Cardoso, dentista em Goiânia, em seu consultório" loading="lazy" decoding="async">
+        </picture>
       </div>
-      <div class="about__copy">
+      <div class="about__copy" data-reveal="right">
         <p class="eyebrow">Quem sou eu?</p>
         <h2 class="title" id="about-title">Conheça a <span class="accent">Dra. Paula Cardoso</span></h2>
-        <p>A Dra. Paula Cardoso é uma referência em odontologia estética, com anos de experiência em transformar sorrisos e elevar a autoestima dos pacientes. Sua missão é proporcionar sorrisos naturais e deslumbrantes, com técnicas modernas e um cuidado especial com cada paciente.</p>
+        <p>A Dra. Paula Cardoso atua com odontologia estética em Goiânia, unindo avaliação individual, planejamento digital do sorriso e cuidado humanizado. Seu trabalho busca transformar sorrisos com harmonia, segurança e naturalidade, respeitando as características de cada paciente.</p>
         <a class="button" href="https://spar-hazel.vercel.app/l/google-paula-cardoso-ess-fzx" target="_blank" rel="noopener">Quero transformar meu sorriso hoje</a>
       </div>
     </section>
 
     <section class="faq" id="faq" aria-labelledby="faq-title">
       <div class="faq__inner">
-        <h2 class="title faq__title" id="faq-title">Dúvidas Frequentes <span class="underlined">(FAQ)?</span></h2>
+        <h2 class="title faq__title" id="faq-title" data-reveal>Dúvidas Frequentes <span class="underlined">(FAQ)?</span></h2>
         <div class="faq-list">
-          <details class="faq-item">
+          <details class="faq-item" data-reveal>
             <summary>A avaliação é sem compromisso?</summary>
             <p>Sim. A avaliação é o momento de entender suas necessidades, esclarecer possibilidades e orientar os próximos passos.</p>
           </details>
-          <details class="faq-item">
+          <details class="faq-item" data-reveal>
             <summary>O resultado fica natural?</summary>
             <p>O planejamento busca respeitar suas proporções faciais e as características do seu sorriso para alcançar um resultado harmônico.</p>
           </details>
-          <details class="faq-item">
+          <details class="faq-item" data-reveal>
             <summary>Quanto tempo dura o tratamento?</summary>
             <p>O prazo depende do diagnóstico e do plano definido durante a avaliação individual.</p>
           </details>
-          <details class="faq-item">
+          <details class="faq-item" data-reveal>
             <summary>O planejamento é feito antes de iniciar qualquer procedimento?</summary>
             <p>Sim. Avaliação, simulação e planejamento antecedem a execução do tratamento.</p>
           </details>
-          <details class="faq-item">
+          <details class="faq-item" data-reveal>
             <summary>Atende plano odontológico?</summary>
             <p>Consulte a equipe para confirmar modalidades de atendimento, formas de pagamento e eventuais coberturas.</p>
           </details>
@@ -1384,26 +298,29 @@
     </section>
 
     <section class="social-results" aria-labelledby="social-results-title">
-      <div class="social-results__head">
+      <div class="social-results__head" data-reveal>
         <h2 class="title social-results__title" id="social-results-title">Resultados reais. Pessoas reais.</h2>
-        <div class="carousel-controls social-results__controls" aria-label="Controles dos resultados reais">
+        <div class="carousel-controls social-results__controls" role="group" aria-label="Controles dos resultados reais">
           <button class="carousel-control" type="button" data-scroll="social-results-track" data-direction="-1" aria-label="Resultados anteriores">‹</button>
           <button class="carousel-control" type="button" data-scroll="social-results-track" data-direction="1" aria-label="Próximos resultados">›</button>
         </div>
       </div>
-      <div class="social-strip" id="social-results-track" tabindex="0" aria-label="Carrossel de resultados publicados por pacientes">
-        <img src="assets/resultado-real-01.webp" alt="Paciente conferindo o novo sorriso no espelho">
-        <img src="assets/resultado-social-2.png" alt="Resultado de sorriso novo em 2026">
-        <img src="assets/resultado-real-03.webp" alt="Paciente sorrindo após o tratamento">
-        <img src="assets/resultado-real-04.webp" alt="Transformação natural e feminina do sorriso">
-        <img src="assets/resultado-real-05.webp" alt="Registro pessoal de paciente">
-        <img src="assets/resultado-real-06.webp" alt="Dra. Paula Cardoso apresentando uma transformação">
-        <img src="assets/resultado-real-07.webp" alt="Agenda de atendimentos da Dra. Paula Cardoso">
-        <img src="assets/resultado-real-08.webp" alt="Dra. Paula Cardoso recebendo reconhecimento profissional">
-        <img src="assets/resultado-real-09.webp" alt="Dra. Paula Cardoso durante apresentação profissional">
-        <img src="assets/resultado-real-10.webp" alt="Detalhe de resultado estético dental">
-        <img src="assets/resultado-real-11.webp" alt="Participação da Dra. Paula Cardoso em evento de odontologia">
-        <img src="assets/resultado-real-12.webp" alt="Planejamento digital de tratamento odontológico">
+      <div class="social-strip" id="social-results-track" role="group" tabindex="0" aria-label="Carrossel de resultados publicados por pacientes" data-reveal="scale">
+        <img src="assets/resultado-real-01.webp" width="491" height="663" alt="Paciente conferindo o novo sorriso no espelho" loading="lazy" decoding="async">
+        <picture>
+          <source srcset="assets/resultado-social-2.avif" type="image/avif">
+          <img src="assets/resultado-social-2.png" width="469" height="629" alt="Resultado de transformação estética do sorriso" loading="lazy" decoding="async">
+        </picture>
+        <img src="assets/resultado-real-03.webp" width="491" height="663" alt="Paciente sorrindo após o tratamento odontológico" loading="lazy" decoding="async">
+        <img src="assets/resultado-real-04.webp" width="491" height="663" alt="Transformação natural e feminina do sorriso" loading="lazy" decoding="async">
+        <img src="assets/resultado-real-05.webp" width="491" height="663" alt="Registro de paciente após atendimento odontológico" loading="lazy" decoding="async">
+        <img src="assets/resultado-real-06.webp" width="491" height="663" alt="Dra. Paula Cardoso apresentando uma transformação do sorriso" loading="lazy" decoding="async">
+        <img src="assets/resultado-real-07.webp" width="491" height="663" alt="Agenda de atendimentos da Dra. Paula Cardoso" loading="lazy" decoding="async">
+        <img src="assets/resultado-real-08.webp" width="491" height="663" alt="Dra. Paula Cardoso recebendo reconhecimento profissional" loading="lazy" decoding="async">
+        <img src="assets/resultado-real-09.webp" width="491" height="663" alt="Dra. Paula Cardoso durante apresentação profissional" loading="lazy" decoding="async">
+        <img src="assets/resultado-real-10.webp" width="491" height="663" alt="Detalhe de resultado estético dental natural" loading="lazy" decoding="async">
+        <img src="assets/resultado-real-11.webp" width="491" height="663" alt="Participação da Dra. Paula Cardoso em evento de odontologia" loading="lazy" decoding="async">
+        <img src="assets/resultado-real-12.webp" width="491" height="663" alt="Planejamento digital de tratamento odontológico" loading="lazy" decoding="async">
       </div>
     </section>
 
@@ -1423,7 +340,7 @@
     </div>
 
     <section class="closing" id="contato" aria-labelledby="closing-title">
-      <div class="closing__content">
+      <div class="closing__content" data-reveal>
         <h2 class="title" id="closing-title">Pronto(a) para dar o <span class="accent">primeiro passo</span><br>com segurança?</h2>
         <a class="button" href="https://spar-hazel.vercel.app/l/google-paula-cardoso-ess-fzx" target="_blank" rel="noopener">Agendar avaliação pelo WhatsApp</a>
       </div>
@@ -1433,26 +350,67 @@
   <footer class="site-footer">Dra. Paula Cardoso © Todos os direitos reservados. Desenvolvido por&nbsp;<a href="https://3ads.com.br/" target="_blank" rel="noopener noreferrer">3ADS</a>.</footer>
 
   <script>
-    document.querySelectorAll("[data-scroll]").forEach((button) => {
-      button.addEventListener("click", () => {
-        const track = document.getElementById(button.dataset.scroll);
-        const direction = Number(button.dataset.direction || 1);
-        const firstCard = track.firstElementChild;
-        const styles = window.getComputedStyle(track);
-        const gap = parseFloat(styles.columnGap || styles.gap) || 0;
-        const step = firstCard ? firstCard.getBoundingClientRect().width + gap : 343;
-        track.scrollBy({ left: direction * step, behavior: "smooth" });
-      });
-    });
+    (() => {
+      "use strict";
 
-    document.querySelectorAll(".faq-item").forEach((item) => {
-      item.addEventListener("toggle", () => {
-        if (!item.open) return;
-        document.querySelectorAll(".faq-item[open]").forEach((openItem) => {
-          if (openItem !== item) openItem.open = false;
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      document.querySelectorAll("[data-scroll]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const track = document.getElementById(button.dataset.scroll);
+          if (!track) return;
+
+          const direction = Number(button.dataset.direction || 1);
+          const firstCard = track.firstElementChild;
+          const styles = window.getComputedStyle(track);
+          const gap = parseFloat(styles.columnGap || styles.gap) || 0;
+          const step = firstCard ? firstCard.getBoundingClientRect().width + gap : 343;
+          track.scrollBy({
+            left: direction * step,
+            behavior: reducedMotion ? "auto" : "smooth"
+          });
         });
       });
-    });
+
+      document.querySelectorAll(".faq-item").forEach((item) => {
+        item.addEventListener("toggle", () => {
+          if (!item.open) return;
+          document.querySelectorAll(".faq-item[open]").forEach((openItem) => {
+            if (openItem !== item) openItem.open = false;
+          });
+        });
+      });
+
+      const revealElements = document.querySelectorAll("[data-reveal]");
+
+      if (reducedMotion || !("IntersectionObserver" in window)) {
+        revealElements.forEach((element) => element.classList.add("is-visible"));
+      } else {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          });
+        }, {
+          rootMargin: "0px 0px -8%",
+          threshold: 0.08
+        });
+
+        revealElements.forEach((element) => revealObserver.observe(element));
+      }
+
+      document.querySelectorAll("a.button").forEach((link) => {
+        link.addEventListener("click", () => {
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            event: "cta_click",
+            cta_text: link.textContent.trim(),
+            cta_url: link.href
+          });
+        });
+      });
+    })();
   </script>
 </body>
 </html>
